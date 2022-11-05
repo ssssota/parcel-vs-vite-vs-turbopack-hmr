@@ -1,3 +1,3 @@
 export function Comp0() {
-    return <div>leaf: replace with Date.now() here</div>
-  }
+      return <div>{Date.now() - 1667691540951}</div>
+    }

@@ -1002,7 +1002,7 @@ import { Comp999 } from './components/comp999.jsx'
 
 export default function App() {
   return <div>
-    root: ${Date.now()}
+    root: {Date.now() - 1667690354037}
    <Comp0/>
 <Comp1/>
 <Comp2/>

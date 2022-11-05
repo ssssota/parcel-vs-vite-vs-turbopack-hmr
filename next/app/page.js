@@ -1003,7 +1003,7 @@ import { Comp999 } from './comp999.jsx'
 
 export default function Page() {
   return <div>
-    root: replace with Date.now() here
+    root: {Date.now() - 1667691534067}
    <Comp0/>
 <Comp1/>
 <Comp2/>
