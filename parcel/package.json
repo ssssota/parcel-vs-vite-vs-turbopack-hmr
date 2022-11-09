@@ -5,8 +5,7 @@
     "dev": "parcel src/index.html"
   },
   "devDependencies": {
-    "@parcel/bundler-experimental": "nightly",
-    "parcel": "nightly",
+    "parcel": "^2.8.0",
     "process": "^0.11.10"
   },
   "dependencies": {
