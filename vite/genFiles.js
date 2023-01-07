@@ -4,10 +4,10 @@ let imports = ``
 let renderCode = ``
 
 for (let i = 0; i < 1000; i++) {
-  imports += `import { Comp${i} } from './components/comp${i}.jsx'\n`
+  imports += `import { Comp${i} } from './components/comp${i}'\n`
   renderCode += `<Comp${i}/>\n`
   fs.writeFileSync(
-    `src/components/comp${i}.jsx`,
+    `src/components/comp${i}.tsx`,
     `export function Comp${i}() {
     return <div>hello ${i}</div>
   }`
@@ -23,4 +23,4 @@ export default function App() {
 }
 `
 
-fs.writeFileSync('src/App.jsx', code)
+fs.writeFileSync('src/App.tsx', code)
